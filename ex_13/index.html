@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+  <h1>Create User</h1>
+  <hr>
+  <form>
+    <label for="nameid">Name:</label>
+      <input type="text" name="name"  placeholder="name"  id="nameid"/>
+    <div class="custom-select" style="width:200px;">
+        <select>
+          <option value="deadpool">Deadpool</option>
+          <option value="batman_vs_superman">Batman v Superman</option>
+          <option value="civil_war">Captain America: Civil War </option>
+          <option value="doctor_strange">Doctor Strange</option>
+          <option value="suicide_squad">Suicide Squad</option>
+          <option value="apocalypse">X-Men: Apocalypse</option> 
+          <option value="gotg_vol2">Guardians of the Galaxy Vol 2 </option>
+          <option value="justice_league">Justice League</option>
+          <option value=" logan">Logan</option>
+          <option value="homecoming">Spider-Man: Homecoming</option>
+          <option value="wonder_woman">Wonder Woman</option>
+          <option value="thor_ragnarok">Thor: Ragnarok</option>
+          <option value="black_panther">Black Panther</option>
+        </select>
+      </div>
+      <textarea name="about" placeholder="write the bio there" cols="30" rows="10"></textarea>
+    </form>
+    <form action="/action_page.php">
+      <label for="actionid"></label>
+        <input type="file" name="pic" accept="image/*" id="actionid">
+      </form>
+      <form >
+        <label for="clearformid">clear form</label>
+        <button value="create" name="create-user" id="clearformid">clear form</button>
+      </form>
+      <form>
+        <label for="addnewuserid">Add new user</label>
+        <button value="create" name="create-user" id="addnewuserid">Add new user</button>
+      </form>
+</body>
+</html>

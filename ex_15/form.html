@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create User</title>
+</head>
+<body>
+  <h1>User Form</h1>
+  <hr>
+  <form action="create_user.html" method="GET" enctype="application/x-www-form-urlencoded">
+    <label> username:</label> 
+     <input type="text" size="30px" name="username" placeholder="username cannot contain numbers" pattern="^[a-zA-Z]+$" title="Input only letters" required />
+    
+     <br/>  
+     <label> Password:</label>
+     <input type="password" size="30px" name="password" pattern="\d+" placeholder="input only numbers" title="Input only numbers" required />
+     <br/>  
+     <label>Email:   </label>
+     <input type="email" size="35px" name="email" required/>
+     
+     <br/>  
+     <input type="submit" value="Submit ">
+</form>
+<br>
+
+  <br>
+
+</body>
+</html>
